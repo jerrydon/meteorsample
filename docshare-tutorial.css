@@ -1,0 +1,50 @@
+/* CSS declarations go here */
+body{
+	background: #f0f0f0;
+}
+.main_wrapper{
+	min-width:1000px;
+}
+.wrapper{
+	width: 900px;
+    margin: 0 auto;
+    background: #D0D0D0;
+    padding: 0 10px;
+    min-height: 600px;
+}
+.wrapper h1{
+	text-align: center;
+}
+.header{
+	height: 50px;
+	margin: 20px 0px;
+}
+.signout{
+	float:right;
+}
+
+.documents{
+	text-align: center;
+}
+
+.display input[type='textarea']{
+	padding: 10px;
+}
+.friends{
+	margin-left: 80px;
+}
+
+#new-document{
+	width: 250px;
+	height: 40px;
+	font-size: 25px;
+
+}
+
+#createDocument{
+	font-size: 20px;
+}
+.footer{
+	height: 70px;
+	background: #000;
+}

@@ -1,0 +1,8 @@
+{
+  "packages": {
+    "cluster": {},
+    "kadira": {},
+    "fast-render": {},
+    "smart-collections": {}
+  }
+}
