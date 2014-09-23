@@ -4,7 +4,7 @@
 First, let’s install Meteor. 
 
 1. If you’re on Mac or Linux, simply open a Terminal window and type:
-	-curl https://install.meteor.com | /bin/sh
+	- curl https://install.meteor.com | /bin/sh
 
 2. Creating a Meteor app is pretty easy. Once you’ve installed Meteor, all you need to do is go back to the Terminal and type this:
 	- meteor create docshare-tutorial
@@ -13,8 +13,7 @@ First, let’s install Meteor.
 	- cd docshare-tutorial
 	- meteor docshare-tutorial
 
-4. Add packages nedded,Here i use smart coffeescript,backbone,accounts-password,
-	accounts-ui.The accounts-password,accounts-ui are used for implement registation and login facility with username,email and password.
+4. Add packages nedded,Here i use smart **coffeescript**,**backbone**,**accounts-password**,**accounts-ui**,etc.The accounts-password,accounts-ui are used for implement runningegistation and login facility with username,email and password.
 	To add packages Open up a new Terminal window (since your app is already running in the first one) and enter:
 	- mrt add accounts-ui
 	- mrt add accounts-password
