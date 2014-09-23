@@ -31,13 +31,13 @@
 		* Now you need to use a separate MongoDB server
 		* Start it with mongod --replSet meteor
 		* Start a mongo shell and configure mongo as follows
-		#### Apply these commands
+		* Apply these commands
 			var config = {_id: "meteor", members: [{_id: 0, host: "127.0.0.1:27017"}]}
 			rs.initiate(config)
 	### Configure App
 		* Use Smart Collections instead of Standard Collections
 		* Start each Meteor instance with "OPLOG_URL" and the "MONGO_URL"
-		#### Apply these commands
+		*Apply these commands
 			export MONGO_URL=mongodb://localhost:27017/appdb
 			export OPLOG_URL=mongodb://localhost:27017/local
 			meteor
