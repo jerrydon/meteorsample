@@ -2,7 +2,7 @@
 ## Implemetation Steps
 
 1.First, let’s install Meteor. If you’re on Mac or Linux, simply open a Terminal window and type:
-	curl https://install.meteor.com | /bin/sh
+	-curl https://install.meteor.com | /bin/sh
 
 2. Creating a Meteor app is pretty easy. Once you’ve installed Meteor, all you need to do is go back to the Terminal and type this:
 	meteor create docshare-tutorial
