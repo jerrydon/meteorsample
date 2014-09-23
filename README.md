@@ -1,11 +1,13 @@
 #[Simple Meteor App for Document Sharing]
 ## Implemetation Steps
 
-1.First, let’s install Meteor. If you’re on Mac or Linux, simply open a Terminal window and type:
+First, let’s install Meteor. 
+
+1. If you’re on Mac or Linux, simply open a Terminal window and type:
 	-curl https://install.meteor.com | /bin/sh
 
 2. Creating a Meteor app is pretty easy. Once you’ve installed Meteor, all you need to do is go back to the Terminal and type this:
-	meteor create docshare-tutorial
+	- meteor create docshare-tutorial
 
 3. You’ll then be able to run your brand new app locally with this:
 	- cd docshare-tutorial
