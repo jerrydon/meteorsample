@@ -27,13 +27,13 @@ First, let’s install Meteor.
 	- mrt add smart-collections
 
 6. Smart Collection is now retired & Meteor’s Collection implementation has fixes 	for most of the performance bottlenecks. It is also using the MongoDB oplog just 	like Smart Collections.
-	For the above , 
+	### For the above , 
 		- You need to configure MongoDB for an active oplog
 		- You need to use Smart Collections in your app
 
 	### Configure MongoDB
 		* Now you need to use a separate MongoDB server
-		* Start it with mongod --replSet meteor
+		* Start it with mongod *--replSet* meteor
 		* Start a mongo shell and configure mongo as follows
 		* Apply these commands
 			var config = {_id: "meteor", members: [{_id: 0, host: "127.0.0.1:27017"}]}
