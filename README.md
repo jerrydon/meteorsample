@@ -13,14 +13,17 @@ First, let’s install Meteor.
 	- cd docshare-tutorial
 	- meteor docshare-tutorial
 
-4. Add packages nedded,Here i use smart **coffeescript**,**backbone**,**accounts-password**,**accounts-ui**,etc.The accounts-password,accounts-ui are used for implement runningegistation and login facility with username,email and password.
+4. Add packages nedded,Here i use smart **coffeescript**,**backbone**,**accounts-password**,**accounts-ui**,etc.The *accounts-password*,*accounts-ui* are used for implement runningegistation and login facility with username,email and password.
 	To add packages Open up a new Terminal window (since your app is already running in the first one) and enter:
 	- mrt add accounts-ui
 	- mrt add accounts-password
 
-5. In this project use smart collection,which is now retired & Meteor’s Collection 		implementation has fixes for most of the performance bottlenecks.
+5. In this App use **Smart Collections**,WHich is is a complete re-write of the 	MongoDB Collection API for Meteor. It is designed with following 3 areas in 	mind
+	- Speed
+	- Efficiency (Memory & CPU)
+	- Scalability
 	
-	To add smart collection follow below steps
+	To add **smart collection** follow below steps
 	- mrt add smart-collections
 
 6. Smart Collection is now retired & Meteor’s Collection implementation has fixes 	for most of the performance bottlenecks. It is also using the MongoDB oplog just 	like Smart Collections.
